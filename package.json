@@ -1,0 +1,14 @@
+{
+  "name": "es6-training",
+  "version": "1.0.0",
+  "description": "ES6 Training Examples",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server"
+  },
+  "author": "David Christensen",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}

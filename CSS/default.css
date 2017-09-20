@@ -1,0 +1,33 @@
+@keyframes enter {
+    from { transform: translateX(-100%); }
+    to { transform: translateX(0); }
+}
+
+.slide-in {
+    animation-name: enter;
+    animation-duration: 500ms;
+}
+
+.log {
+    display: block;				
+    margin: 0 10px 10px 10px;
+    border-width: 1px;
+    font-size: larger;
+    white-space: pre;
+    transition-property: all;
+    transition-duration: 200ms;
+    transition-delay: 50ms;
+}
+
+.log:hover {
+    border-width: 3px;
+    margin: -2px 8px 8px 8px;
+}
+
+.log:active {
+    font-size: 36px;
+}
+
+.log .glyphicon {
+    margin-right: 15px;
+}
